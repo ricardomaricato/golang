@@ -30,6 +30,8 @@ func main() {
 
 	// Arrays Internos
 	fmt.Println("----------")
+
+	// Make é uma função que vai alocar um espaço na memória do nosso programa para fazer tal
 	slice3 := make([]float32, 10, 11)
 	fmt.Println(slice3)
 
