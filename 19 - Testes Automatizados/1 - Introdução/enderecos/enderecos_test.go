@@ -10,6 +10,9 @@ type cenarioDeTeste struct {
 	retornoEsperado  string
 }
 
+// Comando para gerar arquivo de coverage $ go test --coverprofile cobertura.txt
+// Para ler o arquivo via html $ go tool cover --html=cobertura.txt
+
 func TestTipoDeEndereco(t *testing.T) {
 	t.Parallel()
 
